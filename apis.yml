@@ -1,8 +1,29 @@
 aid: builderai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/builderai.png
 name: Builder.ai
-description: Builder.ai is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Builder.ai was a London-based AI-assisted software development platform,
+  originally founded in 2016 as Engineer.ai by Sachin Dev Duggal, that let
+  customers assemble custom web and mobile applications from reusable building
+  blocks orchestrated by an AI assistant branded "Natasha." Positioned as a
+  no-code/low-code "human-assisted AI" app factory, it raised large rounds from
+  investors including Insight Partners, Microsoft, the Qatar Investment
+  Authority and SoftBank's DeepCore. The company collapsed into insolvency and
+  entered administration in 2025 amid a revenue-restatement controversy, and its
+  public web and developer surfaces are no longer operational. This profile is
+  retained in the API Evangelist network as a portfolio-lead record; no live
+  API, developer portal, or documentation could be verified during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/builderai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +31,19 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Application Development
+- No Code
+- Low Code
+- App Builder
+- Software Development
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +51,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/builderai-domain-security.yml
 - type: Website
   url: https://www.builder.ai/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
